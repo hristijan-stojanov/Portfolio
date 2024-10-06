@@ -56,6 +56,9 @@
     height: 83vh;
     margin-bottom: 0;
   }
+  #startup{
+	 
+  }
   article {
     font-size: 1rem;
   }
@@ -100,4 +103,32 @@
   .text-container {
     text-align: justify;
   }
+}
+
+/* startup */
+@media (max-width: 768px) {
+    .startup-container {
+        flex-direction: column; 
+        text-align:  justify; 
+		
+    }
+
+	.startup-text {
+     padding: 0px 2px;
+	margin-left : 0px;
+	width: 100%
+}
+    .startup-logo {
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+
+    #socials-container {
+        justify-content: center; 
+        margin-top: 15px;
+    }
+
+    .startup-logo img {
+        max-width: 100px; 
+    }
 }
